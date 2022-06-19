@@ -1,5 +1,11 @@
 const repeatString = function(string,num) {
 
+    //add if condition to check if num parameter given is a negative number
+    if(num < 0){
+        //if it is, return error string msg and break out of function
+        return 'ERROR';
+    }
+
     //String variable to store result from for loop
     let stringResult = '';
 
